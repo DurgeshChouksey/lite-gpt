@@ -1,0 +1,43 @@
+.chat-bot {
+  font-family: 'Poppins';
+
+}
+
+
+heading-chat-bot {
+  text-align: center;
+}
+
+.qna {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* border: 1px solid black; */
+  width: fit-content;
+  /* padding: rem; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.prompt_input {
+  width: 200px;
+  padding: 1rem;
+}
+
+.response {
+  margin-top: 9rem;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #1f456e;
+  padding: 1rem;
+}
+
+.response p {
+  text-align: left;
+  font-size: 1.2rem;
+  color: green;
+}
